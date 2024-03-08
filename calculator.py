@@ -44,4 +44,5 @@ def calculator():
         else:
             continue_flag = False
             print("Bye")
+            
 calculator()
