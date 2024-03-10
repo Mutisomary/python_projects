@@ -32,7 +32,7 @@ def calculator():
         number2 = float(input("Enter the second number: "))
         calculator_function = operations_dict[op_symbol]
         output = calculator_function(number1, number2)
-        print(f'{number1} {symbol} {number2} = {output}')
+        print(f'{number1} {op_symbol} {number2} = {output}')
 
         should_continue = input(f"Enter 'y' to continue operation with {output} or 'n' to start a new operation or 'x' to exit operation ").lower()
         if should_continue == 'y':
